@@ -185,7 +185,7 @@ class FavoritesPage extends StatelessWidget {
 
     if (appState.favorites.isEmpty) {
       return Center(
-        child: Text('No yet.'),
+        child: Text('Yes favorites yet.'),
       );
     }
 
